@@ -1,0 +1,36 @@
+{
+  "name": "reddit-account",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "create-profiles-file": "node tasks/create-profiles-file/index.js",
+    "check-profiles-ban": "node tasks/check-profiles-ban/index.js",
+    "show-profile": "node tasks/show-profile/index.js Parking-Bread-243 accounts false",
+    "test": "node lib/ww tasks/test-engine/index.js accounts false",
+    "farming-page": "node lib/ww tasks/farming-page/index.js accounts false",
+    "dev-farming-page": "node tasks/farming-page/index.js Evakrw6s4adw accounts false",
+    "fill-profiles": "node tasks/fill-profiles/index.js accounts false"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@good-ghosting/random-name-generator": "^1.0.3",
+    "eslint": "^8.44.0",
+    "fs.promises.exists": "^1.1.4",
+    "https-proxy-agent": "^7.0.1",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4",
+    "node-fetch": "^3.3.1",
+    "p-queue": "^7.3.4",
+    "promise-queue": "^2.2.5",
+    "puppeteer-core": "^20.7.4",
+    "puppeteer-page-proxy": "^1.3.0",
+    "puppeteer-proxy": "^2.1.2",
+    "random-name": "^0.1.2",
+    "sleep-promise": "^9.1.0",
+    "unique-username-generator": "^1.1.3",
+    "username": "^6.0.0"
+  }
+}
