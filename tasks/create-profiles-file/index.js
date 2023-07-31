@@ -11,6 +11,13 @@ import pageNetwork from '../../lib/page-network.js'
 import TempMail from '../../lib/temp-mail/index.js'
 import { generateFromEmail } from 'unique-username-generator'
 
+
+import { exec, spawnSync } from 'child_process'
+import os from 'os'
+import chalk from 'chalk'
+
+const isMac = os.platform() === 'darwin'
+
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 const configure = {
@@ -168,7 +175,7 @@ const createProfileFile = async (account, tm) => {
 
     if (isGoodCaptcha) {
       await page.waitForSelector('button[class="btn-clear head__btn head__btn--icf head__btn--settings head__btn--settings--account init-ok"]', {
-        timeout: 60000 * 60
+        timeout: 60000 * 2
       })
   
       await page.evaluate(() => {
@@ -287,6 +294,63 @@ const createProfileFile = async (account, tm) => {
 
 ;(async () => {
   for (let x = 0; x < 100; x++) {
+    console.log(chalk.red('[ Kill Dolphin{anty} 🐬 ]'))
+    if (isMac) {
+      spawnSync('pkill', ['-x', 'Dolphin Anty'])
+    } else {
+      spawnSync('TASKKILL', ['/F', '/IM', "Dolphin Anty.exe", '/T'])
+    }
+
+    await sleep(5000)
+
+    console.log(chalk.green('[ Start Dolphin{anty} 🐬 ]'))
+    if (isMac) {
+      exec('open -n "/Applications/Dolphin Anty.app"')
+    } else {
+      exec('"C:/Users/CykaBlyad/AppData/Local/Programs/Dolphin Anty/Dolphin Anty.exe" & exit')  
+    } 
+
+    await sleep(15000)
+
+    for (let x = 0; x < 10; x++) {
+      console.log(chalk.cyan('[ Removing profiles Dolphin{anty} 🐬 ]'))
+      try {
+        const { data } = await fetch('https://dolphin-anty-api.com/browser_profiles?page=1&limit=50', {
+          headers: {
+            'accept': 'application/json, text/plain, */*',
+            'authorization': `Bearer ${dolphonToken}`
+          },
+          method: 'GET'
+        }).then(data => data.json())
+
+        if (data.length === 0) {
+          break
+        }
+
+        const { success } = await fetch('https://dolphin-anty-api.com/browser_profiles', {
+          headers: {
+            'accept': 'application/json, text/plain, */*',
+            'authorization': `Bearer ${dolphonToken}`,
+            'content-type': 'application/json',
+          },
+          body: JSON.stringify({
+            ids: data.map(({ id }) => id)
+          }),
+          method: 'DELETE',
+        }).then(data => data.json())
+
+        if (success) {
+          break
+        }
+      } catch (e) {
+        // ok
+      }
+    
+      await sleep(5000)
+    }
+
+    await sleep(15000)
+
     await Promise.all(
       Array(10).fill(true).map(async () => {
         const tm = new TempMail()
@@ -309,6 +373,26 @@ const createProfileFile = async (account, tm) => {
         }, tm)
       })
     )
+
+    console.log(chalk.yellow('[ Remove Dolphin{anty} cache trash 🐬 ]'))
+    const pathBrowserProfiles = isMac 
+                                  ? '/Users/stas/Library/Application Support/dolphin_anty/browser_profiles' 
+                                  : 'C:/Users/CykaBlyad/AppData/Roaming/dolphin_anty/browser_profiles'
+
+    await Promise.all(
+      (await fs.readdir(pathBrowserProfiles))
+        .filter(file => file !== 'desktop.ini')
+        .map(file => path.join(pathBrowserProfiles, file))
+        .map(async file => {
+          try {
+            await fs.rm(file, { recursive: true, force: true })
+          } catch (e) {
+            // ok
+          }
+        })  
+    )   
+
+    await sleep(3000)
   }
 })()
 

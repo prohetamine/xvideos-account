@@ -1,0 +1,177 @@
+{
+  "id": 121820049,
+  "mail": "halek51332@sportrid.com",
+  "username": "halek51332143",
+  "password": "2323fdg54vdgt46oWWWwfi43jf43j4gor",
+  "localStorage": {
+    "chat_storage_test": "\"1\"",
+    "user_theme_fav": "{\"i\":\"black\",\"m\":\"manual\",\"t\":1698535056318}",
+    "xvutils.nb_tabs_opened": "1",
+    "server_connection_time": "1690759055941",
+    "chat-pk": "\"{\\\"ct\\\":\\\"MEAG5pWjSMPJIVHwFIdDoOfDUBKXrdANnGA6LFyMh20NyUde83Wal0GyeE795+lrBX8s0\\\\/A4hdL\\\\/iHbsghQJOzSBz7GjfEqlZ7WBIaWxZccidiSZC2mU6ewIenCs83OunSDGpDggao7avzjb71jTzV+cDT+Qyl2N472OGdCrSjVd3MF3CGZ9PEEcKzLYGrIJ7C+\\\\/ia8Zr9gICMwoFU0WlbkMgeI+8y6U1+6iZMFhPFQ\\\\/DEu64aifmz1CMZxulG\\\\/9+PcLFm73ac3SYLouWwQfnfPRRMMn+lRtPInqyyBBaebi044c70c28ACOywRnJVl5lZAwcZ\\\\/ta\\\\/JPIvUB8BpaCfAuYwo0bvYKnd7+423x\\\\/oqqcHOyOj6RNyNSDT82Cu8KaoeiH8m+t1Xxi8ANaSIzU44gLnNxQAN5uqPclgYBu0VZ2sAgxQSHmSlf7EyFRSHcO+VIEHjQzYqxW540P02v5dxnHUXaRznFN6TLvljgFopxGNhO4vAxGdpQy5Ltk8bay9NTEhWneDEKc8ulmGsYV72J1DbcMAoNP0DcXrPJeRIU6VY+XZEQmrzWGLLE6Rlp7fXHf63D2NsdE7PlS5w1bZDqkFDyP6pEL27zBRbd91h3IDu1\\\\/Vaejj9pNKRsQyQj0zNqoWiuW+NtgryGmZQVU9oYcBNbwGAdBIYRYSGUHW7W5T7SuoU\\\\/ZVLART+cYQXKcGwQ4YuH1+DaPoDo0qXmHbshmoRE8UFiRhWy9+pI0qFqhQaxsJxzS\\\\/7l8SEAmvphC9VEtY65l+gd0XAqIUh\\\\/LsnzznF8v7HYIG+CAPvj0R\\\\/sMfpJSWt93hZlJEUQzjKi6zi5hNQdB83rvp1Cfsy4hIRd99wWGqH9\\\\/9\\\\/CPF5HBnDjpjBSs9kKue+XLrOMQ3gm2NQboQerKVGcQ\\\\/Vj5xREhDxgahMu0VUMJ4pWJfJXEkdRtZ8efqMVr2n80qZJDjzj9SzUWnL9gQkS2W0p3CL\\\\/9PjR67AwvhbgwRlftHsJl7e4Kinx0JrIyXehp2cZhHzyIxqCxde+ShqNe0u4eeGYJskorIo4qwPz46+dSeBX84Rx7fT8GaE2Vae28uKHB1wIaDe\\\\/lBlhQJTe1JwPNBVZWS9lZVgTB3zPFoxcFp92uKlFdtz4nltdaauCPlts8ckRRJmK973nGMl5EN7UqcgzO38ZX61cLDI8qJTBgTzCDcl7XSrkn2d+ZGea0WJZ4VsD59E6IIf+NBwb9Dp6daVjGsQUQZdtRmKkn\\\\/8dDgzrtREqCqF2ikaEjzUcCs7puNat\\\",\\\"iv\\\":\\\"d562f911fc4966efb19f7aa0ada4f79f\\\",\\\"s\\\":\\\"697d2f519a3819bd\\\"}\"",
+    "server_connection": "\"c35.1ka.com\""
+  },
+  "sessionStorage": {
+    "chat_storage_test": "\"1\"",
+    "user_theme_fav": "{\"i\":\"black\",\"m\":\"manual\",\"t\":1698535056318}",
+    "xvutils.nb_tabs_opened": "1",
+    "server_connection_time": "1690759055941",
+    "chat-pk": "\"{\\\"ct\\\":\\\"MEAG5pWjSMPJIVHwFIdDoOfDUBKXrdANnGA6LFyMh20NyUde83Wal0GyeE795+lrBX8s0\\\\/A4hdL\\\\/iHbsghQJOzSBz7GjfEqlZ7WBIaWxZccidiSZC2mU6ewIenCs83OunSDGpDggao7avzjb71jTzV+cDT+Qyl2N472OGdCrSjVd3MF3CGZ9PEEcKzLYGrIJ7C+\\\\/ia8Zr9gICMwoFU0WlbkMgeI+8y6U1+6iZMFhPFQ\\\\/DEu64aifmz1CMZxulG\\\\/9+PcLFm73ac3SYLouWwQfnfPRRMMn+lRtPInqyyBBaebi044c70c28ACOywRnJVl5lZAwcZ\\\\/ta\\\\/JPIvUB8BpaCfAuYwo0bvYKnd7+423x\\\\/oqqcHOyOj6RNyNSDT82Cu8KaoeiH8m+t1Xxi8ANaSIzU44gLnNxQAN5uqPclgYBu0VZ2sAgxQSHmSlf7EyFRSHcO+VIEHjQzYqxW540P02v5dxnHUXaRznFN6TLvljgFopxGNhO4vAxGdpQy5Ltk8bay9NTEhWneDEKc8ulmGsYV72J1DbcMAoNP0DcXrPJeRIU6VY+XZEQmrzWGLLE6Rlp7fXHf63D2NsdE7PlS5w1bZDqkFDyP6pEL27zBRbd91h3IDu1\\\\/Vaejj9pNKRsQyQj0zNqoWiuW+NtgryGmZQVU9oYcBNbwGAdBIYRYSGUHW7W5T7SuoU\\\\/ZVLART+cYQXKcGwQ4YuH1+DaPoDo0qXmHbshmoRE8UFiRhWy9+pI0qFqhQaxsJxzS\\\\/7l8SEAmvphC9VEtY65l+gd0XAqIUh\\\\/LsnzznF8v7HYIG+CAPvj0R\\\\/sMfpJSWt93hZlJEUQzjKi6zi5hNQdB83rvp1Cfsy4hIRd99wWGqH9\\\\/9\\\\/CPF5HBnDjpjBSs9kKue+XLrOMQ3gm2NQboQerKVGcQ\\\\/Vj5xREhDxgahMu0VUMJ4pWJfJXEkdRtZ8efqMVr2n80qZJDjzj9SzUWnL9gQkS2W0p3CL\\\\/9PjR67AwvhbgwRlftHsJl7e4Kinx0JrIyXehp2cZhHzyIxqCxde+ShqNe0u4eeGYJskorIo4qwPz46+dSeBX84Rx7fT8GaE2Vae28uKHB1wIaDe\\\\/lBlhQJTe1JwPNBVZWS9lZVgTB3zPFoxcFp92uKlFdtz4nltdaauCPlts8ckRRJmK973nGMl5EN7UqcgzO38ZX61cLDI8qJTBgTzCDcl7XSrkn2d+ZGea0WJZ4VsD59E6IIf+NBwb9Dp6daVjGsQUQZdtRmKkn\\\\/8dDgzrtREqCqF2ikaEjzUcCs7puNat\\\",\\\"iv\\\":\\\"d562f911fc4966efb19f7aa0ada4f79f\\\",\\\"s\\\":\\\"697d2f519a3819bd\\\"}\"",
+    "server_connection": "\"c35.1ka.com\""
+  },
+  "cookies": [
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09AFaX_OXTzb5ss_0yavbuqRTXkaNQ5k6WCY2ngdrP85YlJKGftN9OKZiufyEI2Lu-jId2jgEWlzmxaUZ_gEWhFm4",
+      "domain": "www.google.com",
+      "path": "/recaptcha",
+      "expirationDate": 1706310995
+    },
+    {
+      "name": "",
+      "value": "undefined",
+      "domain": "www.xvideos.com",
+      "path": "/",
+      "expirationDate": -11644473600
+    },
+    {
+      "name": "",
+      "value": "undefined",
+      "domain": "www.xvideos.com",
+      "path": "/switch-theme",
+      "expirationDate": -11644473600
+    },
+    {
+      "name": "session_ath",
+      "value": "black",
+      "domain": ".xvideos.com",
+      "path": "/",
+      "expirationDate": 1698535056
+    },
+    {
+      "name": "",
+      "value": "undefined",
+      "domain": "www.xvideos.com",
+      "path": "/account/email",
+      "expirationDate": -11644473600
+    },
+    {
+      "name": "io",
+      "value": "FH-oXIKtGG9Du66IIbnr",
+      "domain": "www.xvideos.com",
+      "path": "/",
+      "expirationDate": -11644473600
+    },
+    {
+      "name": "",
+      "value": "undefined",
+      "domain": "www.xvideos.com",
+      "path": "/account",
+      "expirationDate": -11644473600
+    },
+    {
+      "name": "session_token",
+      "value": "5b5497f262c317efCy3OTCzoX0-eDfCrWBhciqwYXwXTVoRpzRV4xf8QTf503rGJ4VaKAdvmzpVJ6MdVhxAUIdCatZjmidlF5FerG7pI_fcFYakZLHaZDVSoJ_Kl8PEI99YsPznJ_RMyEryXvvySfd2RppoksWduDzHRohhwEE4XbKgpwpbyuXPz1OgByyQfdSa45Dl7Zp0BzIX42wwht9v36vd_1l5iAoHj2tQKNj2IBnV6k5JT6VstwJJiUaFnWB1nawcxKFiS61OjccGh4adg26DOUBii8hQB6a9zGw2hQY_MYVqxeQQQY3bqktI8vEVcaQAX1BlW2ExVoqcFtUGi8JfT7RFAj61ZFhCv-pE81oDAIYi5TVvzumTpyO0uixmQCXK9h0iuTzekDXSgx8EDM0lhdGapgL71cOatuL4RPld3IWkIfVLx_Y0j1hevO19_tfkhzSTBTJ_r",
+      "domain": ".xvideos.com",
+      "path": "/",
+      "expirationDate": 1693351063
+    }
+  ],
+  "fingerprint": {
+    "name": "HALEK51332143",
+    "tags": [],
+    "platform": "windows",
+    "browserType": "anty",
+    "mainWebsite": "https://reddit.com",
+    "doNotTrack": 0,
+    "statusId": 4593694,
+    "useragent": {
+      "mode": "manual",
+      "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+    },
+    "webrtc": {
+      "mode": "altered",
+      "ipAddress": null
+    },
+    "canvas": {
+      "mode": "real"
+    },
+    "webgl": {
+      "mode": "real"
+    },
+    "webglInfo": {
+      "mode": "manual",
+      "vendor": "Google Inc. (Intel)",
+      "renderer": "ANGLE (Intel, Intel(R) HD Graphics 5500 Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "webgl2Maximum": "{\"UNIFORM_BUFFER_OFFSET_ALIGNMENT\":256,\"MAX_TEXTURE_SIZE\":16384,\"MAX_VIEWPORT_DIMS\":[32767,32767],\"MAX_VERTEX_ATTRIBS\":16,\"MAX_VERTEX_UNIFORM_VECTORS\":4096,\"MAX_VARYING_VECTORS\":30,\"MAX_COMBINED_TEXTURE_IMAGE_UNITS\":32,\"MAX_VERTEX_TEXTURE_IMAGE_UNITS\":16,\"MAX_TEXTURE_IMAGE_UNITS\":16,\"MAX_FRAGMENT_UNIFORM_VECTORS\":1024,\"MAX_CUBE_MAP_TEXTURE_SIZE\":16384,\"MAX_RENDERBUFFER_SIZE\":16384,\"MAX_3D_TEXTURE_SIZE\":2048,\"MAX_ELEMENTS_VERTICES\":2147483647,\"MAX_ELEMENTS_INDICES\":2147483647,\"MAX_TEXTURE_LOD_BIAS\":2,\"MAX_DRAW_BUFFERS\":8,\"MAX_FRAGMENT_UNIFORM_COMPONENTS\":4096,\"MAX_VERTEX_UNIFORM_COMPONENTS\":16384,\"MAX_ARRAY_TEXTURE_LAYERS\":2048,\"MIN_PROGRAM_TEXEL_OFFSET\":-8,\"MAX_PROGRAM_TEXEL_OFFSET\":7,\"MAX_VARYING_COMPONENTS\":120,\"MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS\":4,\"MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS\":120,\"MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS\":4,\"MAX_COLOR_ATTACHMENTS\":8,\"MAX_SAMPLES\":8,\"MAX_VERTEX_UNIFORM_BLOCKS\":12,\"MAX_FRAGMENT_UNIFORM_BLOCKS\":12,\"MAX_COMBINED_UNIFORM_BLOCKS\":24,\"MAX_UNIFORM_BUFFER_BINDINGS\":24,\"MAX_UNIFORM_BLOCK_SIZE\":65536,\"MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS\":212992,\"MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS\":200704,\"MAX_VERTEX_OUTPUT_COMPONENTS\":120,\"MAX_FRAGMENT_INPUT_COMPONENTS\":120,\"MAX_ELEMENT_INDEX\":4294967294}"
+    },
+    "clientRect": {
+      "mode": "real"
+    },
+    "notes": {
+      "content": "<p>halek51332143:2323fdg54vdgt46oWWWwfi43jf43j4gor</p>",
+      "color": "blue",
+      "style": "text",
+      "icon": "info"
+    },
+    "timezone": {
+      "mode": "auto",
+      "value": null
+    },
+    "locale": {
+      "mode": "auto",
+      "value": null
+    },
+    "proxy": null,
+    "geolocation": {
+      "mode": "auto",
+      "latitude": null,
+      "longitude": null,
+      "accuracy": null
+    },
+    "cpu": {
+      "mode": "manual",
+      "value": 4
+    },
+    "memory": {
+      "mode": "manual",
+      "value": 4
+    },
+    "screen": {
+      "mode": "real",
+      "resolution": null
+    },
+    "audio": {
+      "mode": "real"
+    },
+    "mediaDevices": {
+      "mode": "real",
+      "audioInputs": null,
+      "videoInputs": null,
+      "audioOutputs": null,
+      "ports": {
+        "mode": "protect",
+        "blacklist": "3389,5900,5800,7070,6568,5938"
+      },
+      "doNotTrack": false,
+      "args": [],
+      "platformVersion": "10.0.0",
+      "uaFullVersion": "114.0.5735.199",
+      "login": "",
+      "password": "",
+      "appCodeName": "Mozilla",
+      "platformName": "Win32",
+      "connectionDownlink": 0.5,
+      "connectionEffectiveType": "4g",
+      "connectionRtt": 200,
+      "connectionSaveData": 0,
+      "cpuArchitecture": "amd64",
+      "osVersion": "10",
+      "vendorSub": "",
+      "productSub": "20030107",
+      "vendor": "Google Inc.",
+      "product": "Gecko"
+    }
+  },
+  "isFill": false
+}

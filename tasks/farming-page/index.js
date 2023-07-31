@@ -150,23 +150,41 @@ import pageNetwork from '../../lib/page-network.js'
 
     // <...>
       
-    await page.goto('https://www.xvideos.com/video77753339/sexy_baby')
+    await page.goto('https://xvideos.com/video4423182/_')
 
-    await page.waitForSelector('.icf-thumb-up')
+    //await page.goto('https://www.xvideos.com/video77771589/oops_i_accidentally_posted_this')
 
     await page.evaluate(() => {
-      document.querySelector('.icf-thumb-up').click()
+      try {
+        document.querySelector('[id="disclaimer-accept_cookies"]').click()
+      } catch (err) {
+        // ok
+      }
     })
+
+    await page.waitForSelector('button[class="vote-action-good"]')
+    
+    const { x, y } = await page.evaluate(() => {
+      const { x, y } = document.querySelector('button[class="vote-action-good"]').getBoundingClientRect()
+      return { x, y }
+    }) 
+    await page.hover('button[class="vote-action-good"]')
+    await sleep(1000)
+    await page.mouse.move(x, y)
+    await sleep(1000)
+    await page.mouse.click(x, y)
 
     await sleep(5000)
 
-    await page.goto('https://www.xvideos.com/profiles/eva22211')
+    await page.goto('https://www.xvideos.com/profiles/styxmib')
 
     await page.waitForSelector('[class="sub-state-text"]')
 
     await page.evaluate(() => {
       document.querySelector('[class="sub-state-text"]').click()
+      document.querySelector('a.vote-action-good').click()
     })
+    
 
     await sleep(5000)
 
@@ -174,7 +192,7 @@ import pageNetwork from '../../lib/page-network.js'
     
     console.log(`\n>>> ${account.username} GOOD VOTE\n`)
 
-    process.send && process.send({ restartTimeout: 60000 * (parseInt(Math.random() * 10) + 25) })
+    process.send && process.send({ restartTimeout: 60000 * (parseInt(Math.random() * 10) + 2005) })
   } catch (err) {
     console.log(err.name, err.message, err.stack, account.id, account.username)
     process.send && process.send({ restartTimeout: 60000 * 0 }) 
